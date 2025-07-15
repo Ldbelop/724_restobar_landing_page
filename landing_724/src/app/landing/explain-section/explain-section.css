@@ -1,0 +1,410 @@
+.texture-bg{
+  position: relative;
+}
+
+.transition-png {
+  width: 100%;
+  z-index: 7;
+  position: relative;
+  top: -358px;
+}
+
+
+/* .blue-fill1{
+  background-color: #485EEA;
+  width: 200px;
+  height: 364px;
+  position: relative;
+  top: -729px;
+}
+
+.blue-fill2{
+  background-color: #485EEA;
+  width: 200px;
+  height: 364px;
+  position: relative;
+  top: -729px;
+} */
+
+.explain-section{
+  position: relative;
+  top: -525px;
+  z-index: 8;
+  width: 100%;
+  height: 4000px;
+  background-color: #485EEA;
+  /* background-color: transparent; */
+}
+
+.explain-white{
+  padding-left:80px;
+  font-size: 75px;
+  color: #F9F9F9;
+}
+
+.explain-darkBlue{
+  font-size: 75px;
+  color: #485EEA;
+}
+
+.explain-yellow{
+  padding-left:80px;
+  font-size: 75px;
+  color: #F9C331;
+  margin-bottom: 93px;
+}
+
+.management-purchasing-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.modules-1{
+  width: 494px;
+  height: 547px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.module-left-side{
+  width:494px;
+  height:216px;
+  border-top-right-radius:60px;
+  border-bottom-right-radius:60px;
+  background-color:#F9F9F9;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 78px;
+}
+
+.module-title{
+  color: #323F93;
+  font-size: 36px;
+  margin-bottom:20px;
+  padding-top: 28px;
+}
+
+.module-text{
+  color: #150F39;
+  font-family: 'Gotham-light', sans-serif;
+  padding-bottom: 38px;
+}
+
+.start-today-btn{
+  width: 250px;
+  height: 71px;
+  border-radius: 10px;
+  color: #15488B;
+  background-color: #F9C331;
+  font-size: 28px;
+  font-family: "Gotham", sans-serif;
+  position: relative;
+  top: 267px;
+  left: 55px;
+  transform: rotate(-1deg);
+}
+
+.modules-2{
+  height:436px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.module-right-side{
+  width:494px;
+  height:215px;
+  border-top-left-radius:60px;
+  border-bottom-left-radius:60px;
+  background-color:#F9F9F9;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 78px;
+}
+
+.a{
+  font-size: 36px;
+  text-align: start;
+}
+
+.right-side{
+  text-align: end;
+}
+
+.portatil-buy-module{
+  width: 384px;
+  height: 276px;
+  position: relative;
+  top: -126px;
+  z-index: 1;
+}
+
+.module-right-side{
+  top: -165px;
+  position: relative;
+  z-index: 0;
+}
+
+.png-gestion-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  padding-right: 57px;
+  position: relative;
+  top: -170px;
+}
+
+.portatil-gestion-model{
+  width:391px;
+  height:433px;
+  position:relative;
+  left: 20px;
+  top: 31px;
+  z-index: 1;
+}
+
+.gestion-app-picture{
+  width:514px;
+  height:256px;
+  z-index: 0;
+}
+
+.end-property{
+  text-align: end;
+  padding-right: 80px;
+}
+.loyalty-analytics-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.transparency-module-container{
+  width: 838px;
+  height: 824px;
+  display: flex;
+  flex-direction:row;
+  padding-left:48px;
+}
+
+.transparency-column{
+  display: flex;
+  flex-direction:column;
+}
+
+.modules-transparency{
+  border-radius: 30px;
+  background-color: #556CEF;
+  display: flex;
+  flex-direction:column;
+  align-items: start;
+  justify-content: center;
+}
+
+.a-div{
+  height: 166px;
+  width:404px;
+  margin-bottom: 153px;
+  margin-right:20px;
+}
+
+.b-div{
+  width:auto;
+  height:212px;
+}
+
+.transparency-module-title{
+  font-family: 'Gotham', sans-serif;
+  font-size:26px;
+  color: #F9F9F9;
+  text-align: start;
+  padding-left: 28px;
+}
+
+.transparency-module-text{
+  font-family: 'Gotham-book', sans-serif;
+  font-size: 20px;
+  color: #F9F9F9;
+  text-align: start;
+  padding-left: 28px;
+  margin-top: 5px;
+}
+
+.specific-bottom{
+  margin-bottom: 40px;
+}
+
+.margin-top-transparency-div1{
+  margin-top: 124px;
+}
+
+.margin-top-transparency-div2{
+  margin-top: 105px;
+}
+
+.bellow-yellow-container{
+  width: 506px;
+  height: 844px;
+  border-top-left-radius:50px;
+  border-top-right-radius: 50px;
+  background-color: #F9C331;
+  margin-right:80px;
+}
+
+.phone-yellow-container-1{
+  position: relative;
+  z-index: 1;
+  left: -89px;
+  top: 22px;
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.phone-yellow-container-2{
+  position: relative;
+  top: -752px;
+  left: 134px;
+  z-index: 0;
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.phone-yellow-container-1,
+.phone-yellow-container-2 {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.center-yellow-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom:81px;
+}
+
+.main-yellow-container{
+  width:1352px;
+  height: 943px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #F9C331;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.margin-top-yellow-text{
+  margin-top:46px;
+}
+
+.yellow-main-text{
+  padding-left:0px;
+}
+
+.yellow-preview-text{
+  text-align: center;
+  color: #F9F9F9;
+  font-size: 26px;
+  font-family: 'Gotham', sans-serif;
+  line-height: 1.2;
+  margin-top:48px;
+  margin-bottom:65px;
+}
+
+.bold_gotham{
+  color: #485EEA;
+}
+
+.yellow-content{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.yellow-sections{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.yellow-section-title{
+  font-size:36px;
+  color:#323F93;
+  line-height: 1.0;
+  margin-bottom: 14px;
+}
+
+.yellow-section-text{
+  font-size:26px;
+  font-family: 'Gotham-book', sans-serif;
+  line-height: 1.0;
+}
+
+.yellow-section-img1{
+  position: relative;
+  top: 10px;
+}
+
+.yellow-section-img2{
+  position: relative;
+  top: -159px;
+  left: -158px;
+}
+
+.yellow-section-img3{
+  position: relative;
+  top: -28px;
+}
+
+.yello1{
+  width: 277px;
+}
+
+.yello2{
+  width: 348px;
+}
+
+.yello3{
+  width: 319px;
+}
+
+.tec-div{
+  width:196px;
+  height:77px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.tec-div-containers{
+  margin-top:57px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tec-div{
+  margin-left:68px;
+}

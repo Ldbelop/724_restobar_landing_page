@@ -1,0 +1,388 @@
+:host{
+  width: 100%;
+  height: 100%;
+}
+
+.feautres-section{
+  width: 100%;
+  height: 3284px;
+  background-color: #fff;
+}
+
+.heading_restobar{
+  font-size: 60px;
+  font-weight: 500;
+  margin-left:79px;
+  line-height: 0.9;
+  padding-top: 43px;
+  padding-bottom: 60px;
+}
+
+.dark_blue_text{
+  color:#323F93;
+}
+
+.explain-text{
+  margin: 0;
+}
+
+.light_blue_text{
+  color:#2499F9;
+}
+
+.light_gotham{
+  font-family: 'Gotham-light', sans-serif;
+}
+
+.bold_gotham {
+  font-family: 'Gotham', sans-serif;
+}
+
+.explain_restobar{
+  margin-left: 256px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom:65px;
+}
+
+.paragraph_restobar {
+  font-size: 24px;
+  color: #150F39;
+  margin-right: 99px;
+  line-height: initial;
+}
+
+.learn-more-btn{
+  border-radius: 12px;
+  width: 240px;
+  height: 62px;
+  background-color: #F9C331;
+  transform: rotate(1.45deg);
+  color: #15488B;
+  font-size: 30px;
+  font-family: "Gotham", sans-serif;;
+}
+
+.features-container{
+  margin-left: 236px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.feature-card{
+  width: 361px;
+  height: 371px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+
+.card1{
+  background-color:#469BE0;
+  z-index:3;
+}
+
+.card2{
+  background-color:#3D88DE;
+  border-top-left-radius: 0px;
+  z-index:2;
+  right: 38px;
+  padding-left: 35px;
+}
+
+.card3{
+  background-color:#4055DA;
+  z-index:1;
+  border-top-left-radius: 0px;
+  right: 80px;
+  padding-left: 35px;
+}
+
+.feature-title{
+  margin-top: 41px;
+  color: #F9F9F9;
+  font-size:30px;
+  text-align: start;
+  padding-left:31px;
+  font-family: 'Gotham-light', sans-serif;
+}
+
+.feature-text{
+  margin-top: 22px;
+  color: #F9F9F9;
+  font-size:26px;
+  text-align: start;
+  padding-inline:31px;
+  line-height: initial;
+}
+
+.card1-bottom-part{
+  width: 597px;
+  height: 31px;
+  background-color:#469BE0;
+  border-bottom-right-radius:20px;
+  position: relative;
+  z-index:2;
+}
+
+.card2-bottom-part{
+  width: 920px;
+  height: 48px;
+  background-color:#3D88DE;
+  border-bottom-right-radius:20px;
+  position: relative;
+  z-index:1;
+  bottom: 31px;
+}
+
+.card3-bottom-part{
+  width: 1239px;
+  height: 67px;
+  background-color: #4055DA;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  bottom: 79px;
+}
+
+.grow-explain-container{
+  padding-left:160px;
+  margin-top: 71px;
+  margin-bottom:42px;
+}
+
+.grow-title{
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+}
+
+.highlighted-blue {
+  color: #2499F9;
+}
+
+.indicator-button{
+  width:300px;
+  height:89px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4055DA;
+  border-radius:15px;
+  color:#F9F9F9;
+  font-size:44px;
+  text-align: center;
+  font-family: 'Gotham', sans-serif;
+  margin-left:80px;
+  transform: rotate(0.75deg);
+  position: relative;
+  z-index: 5;
+}
+
+.grow-list-container{
+  background-color: #F9C946;
+  border-radius: 15px;
+  width:1007px;
+  height:177px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:80px;
+  position: relative;
+  top: -22px;
+  z-index: 3;
+}
+
+.grow-white-container{
+  width:967px;
+  height:96px;
+  border-radius:15px;
+  background-color:#FFFFFF;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  max-height: 42px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li{
+  font-size:20px;
+  color:#15488B;
+  font-family: 'Gotham-italic', sans-serif;
+}
+
+.checks-information-container{
+    padding-left:80px;
+    margin-top: 38px;
+}
+
+.check-title{
+  padding-left: 35px;
+  font-family: 'Gotham-book', sans-serif;
+  color:#150F39;
+  font-size:24px;
+  margin-bottom:40px;
+}
+
+.checkbnts-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 157px);
+  max-width: 898px;
+  position: absolute;
+}
+
+.check-btns{
+  border-radius: 15px;
+  width:336px;
+  height: 91px;
+  background-color:#A5AFF0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-text{
+  align-items: center;
+  font-size:22px;
+  color: #150F39;
+  text-align: center;
+  font-family: 'Gotham-medium-italic', sans-serif;
+}
+
+.btn3{
+  width: 442px;
+}
+
+.btn4{
+  width: 446px;
+}
+
+.liston-png{
+  position: absolute;
+}
+
+.liston1{
+  top: -22px;
+  left: 301px;
+}
+
+.liston2{
+  top: -22px;
+  left: 861px;
+}
+
+.liston3{
+  left: 301px;
+  top: 132px;
+}
+
+.liston4{
+  left: 861px;
+  top: 132px;
+}
+
+.faded-img-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+#faded-img{
+  position: absolute;
+  top: -655px;
+  z-index: 0;
+}
+
+.control-container{
+  margin-top: 360px;
+}
+
+.central-title{
+  font-size: 60px;
+  text-align: end;
+  margin: 0;
+  padding-right:80px;
+}
+
+.central-subtitle{
+  margin-top:42px;
+  font-family: 'Gotham-medium-italic', sans-serif;
+  text-align: end;
+  color: #150F39;
+  font-size: 30px;
+  padding-right:80px;
+}
+
+.png-control-overlap-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 80px;
+  position: relative;
+}
+
+.overlap-wrapper {
+  position: relative; /* container for overlapping */
+}
+
+.lapop-middle-control {
+  position: absolute;
+  left: -508px;
+  top: 0;
+  z-index: 2
+}
+
+.pedidos-app-right-control {
+  position: relative;
+  z-index: 1;
+}
+
+.features-container2{
+  width: 100%;
+  position:relative;
+  top: -543px;
+  display:flex;
+  flex-direction: row;
+  justify-content: end;
+  z-index: 6;
+}
+
+.card1-2{
+  width:405px;
+  height:600px;
+  background-color:#469BE0;
+  border-top-left-radius:40px;
+  position: relative;
+  top: 129px;
+}
+
+.card2-2{
+  width:405px;
+  height:800px;
+  background-color:#3D88DE;
+  border-top-left-radius:40px;
+  position: relative;
+  top: 82px;
+}
+
+.card3-2{
+  width:479px;
+  height:800px;
+  background-color:#4055DA;
+  border-top-left-radius:40px;
+}
