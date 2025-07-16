@@ -1,16 +1,16 @@
 .white-transition{
   width: 100%;
   position: relative;
-  top: -839px;
+  top: -1125px;
   z-index: 8;
 }
 
 .advance-section{
   width: 100%;
-  height: 1098px;
+  height: 629px;
   background-color: #FFFFFF;
   position: relative;
-  top: -1131px;
+  top: -1434px;
   z-index: 9;
 }
 
@@ -21,22 +21,26 @@
   justify-content: center;
   align-items: flex-end;
   padding-right:79px;
-  margin-bottom: 48px;
 }
 
 .explain-darkblue{
   font-size:75px;
+  font-weight: 500;
   color: #323F93;
+  line-height: 0.8;
 }
 
 .explain-yellow{
   font-size:75px;
+  font-weight: 500;
   color: #F9C331;
   margin-bottom:23px;
+  line-height: 0.8;
 }
 
 .bellow-gray-title{
   font-size:30px;
+  font-weight: 500;
   font-family: 'Gotham-italic-bold', sans-serif;
   color: #706D86;
 }
@@ -67,6 +71,7 @@
 
 .gray-title{
   font-size: 36px;
+  font-weight: 500;
   color:#706D86;
   line-height: 1;
   margin-bottom: 10px;
@@ -91,7 +96,7 @@
 
 .facturation3{
   position:relative;
-
+  margin:0;
 }
 
 .gray-end{
@@ -220,4 +225,8 @@ footer{
 .gray-lightBlue{
   font-family: 'Gotham', sans-serif;
   color: #2499F9;
+}
+
+.computer-phone-img{
+  transform: rotate(-2deg);
 }

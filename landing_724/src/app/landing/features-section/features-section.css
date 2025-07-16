@@ -19,7 +19,9 @@
 }
 
 .dark_blue_text{
+  font-weight: 500;
   color:#323F93;
+  line-height: 0.7;
 }
 
 .explain-text{
@@ -27,11 +29,14 @@
 }
 
 .light_blue_text{
+  font-weight: 500;
   color:#2499F9;
+  line-height: 0.7;
 }
 
 .light_gotham{
   font-family: 'Gotham-light', sans-serif;
+  font-weight: 500;
 }
 
 .bold_gotham {
@@ -39,7 +44,7 @@
 }
 
 .explain_restobar{
-  margin-left: 256px;
+  margin-left: 87px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -58,14 +63,14 @@
   width: 240px;
   height: 62px;
   background-color: #F9C331;
-  transform: rotate(1.45deg);
+  transform: rotate(-1.55deg);
   color: #15488B;
   font-size: 30px;
   font-family: "Gotham", sans-serif;;
 }
 
 .features-container{
-  margin-left: 236px;
+  margin-left: 58px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -110,7 +115,9 @@
   font-size:30px;
   text-align: start;
   padding-left:31px;
-  font-family: 'Gotham-light', sans-serif;
+  font-family: 'Gotham', sans-serif;
+  line-height: 32px;
+  font-weight: 500;
 }
 
 .feature-text{
@@ -122,17 +129,31 @@
   line-height: initial;
 }
 
-.card1-bottom-part{
-  width: 597px;
+.card1-bottom-part {
+  width: 419px;
   height: 31px;
-  background-color:#469BE0;
-  border-bottom-right-radius:20px;
+  background-color: #469BE0;
   position: relative;
-  z-index:2;
+  z-index: 2;
+  border-bottom-right-radius: 20px;
+}
+
+.card1-corner {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  background-color: transparent;
+  border-bottom-left-radius: 50px;
+  border-left: 10px solid #469BE0;
+  border-bottom: 10px solid #469BE0;
+  top: -31px;
+  left: 23px;
+  z-index: -1;
+  transform: rotate(279deg)
 }
 
 .card2-bottom-part{
-  width: 920px;
+  width: 743px;
   height: 48px;
   background-color:#3D88DE;
   border-bottom-right-radius:20px;
@@ -142,7 +163,7 @@
 }
 
 .card3-bottom-part{
-  width: 1239px;
+  width: 1061px;
   height: 67px;
   background-color: #4055DA;
   border-bottom-right-radius: 20px;
@@ -151,15 +172,17 @@
 }
 
 .grow-explain-container{
-  padding-left:160px;
+  padding-left: 87px;
   margin-top: 71px;
   margin-bottom:42px;
 }
 
 .grow-title{
   font-size: 60px;
+  font-weight: 500;
   text-align: center;
   margin: 0;
+  line-height: 0.8;
 }
 
 .highlighted-blue {
@@ -179,7 +202,7 @@
   text-align: center;
   font-family: 'Gotham', sans-serif;
   margin-left:80px;
-  transform: rotate(0.75deg);
+  transform: rotate(-1.25deg);
   position: relative;
   z-index: 5;
 }
@@ -188,10 +211,10 @@
   background-color: #F9C946;
   border-radius: 15px;
   width:1007px;
-  height:177px;
+  height: 170px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   margin-left:80px;
   position: relative;
   top: -22px;
@@ -206,6 +229,7 @@
   display:flex;
   flex-direction:column;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 ul{
@@ -218,13 +242,14 @@ ul{
 
 li{
   font-size:20px;
+  font-weight: 600;
   color:#15488B;
   font-family: 'Gotham-italic', sans-serif;
 }
 
 .checks-information-container{
-    padding-left:80px;
-    margin-top: 38px;
+  padding-left:80px;
+  margin-top: 13px;
 }
 
 .check-title{
@@ -259,6 +284,7 @@ li{
   color: #150F39;
   text-align: center;
   font-family: 'Gotham-medium-italic', sans-serif;
+  font-weight: 500;
 }
 
 .btn3{
@@ -301,6 +327,7 @@ li{
 }
 
 #faded-img{
+  width: 739px;
   position: absolute;
   top: -655px;
   z-index: 0;
@@ -312,9 +339,11 @@ li{
 
 .central-title{
   font-size: 60px;
+  font-weight: 500;
   text-align: end;
   margin: 0;
   padding-right:80px;
+  line-height: 0.8;
 }
 
 .central-subtitle{
@@ -385,4 +414,9 @@ li{
   height:800px;
   background-color:#4055DA;
   border-top-left-radius:40px;
+}
+
+.cellphone-izq-control{
+  position: relative;
+  left: 108px;
 }
